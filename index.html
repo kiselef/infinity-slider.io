@@ -21,5 +21,21 @@
             <div class="arrow arrow-right">сюда >></div>
         </div>
     </div>
+    <div class="error none">
+        <pre>
+            1) В корневой директории выполнить:
+
+            npm install http-server -g
+            http-server -p8080 -a localhost
+
+            2) Перейти по адресу <a href="http://localhost:8080">http://localhost:8080</a>
+        </pre>
+    </div>
+    <script>
+      if (location.hostname === '') {
+        document.getElementsByClassName('wrapper').item(0).className += ' none';
+        document.getElementsByClassName('error').item(0).className = 'error';
+      }
+    </script>
 </body>
 </html>
