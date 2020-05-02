@@ -23,6 +23,15 @@
     display: flex;
 }
 
+.arrow {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    background-color: #f7f7f7;
+}
+
 .none {
     display: none;
 }
