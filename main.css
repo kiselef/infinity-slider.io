@@ -35,3 +35,11 @@
 .none {
     display: none;
 }
+
+.strategies {
+    margin: 5px 0 10px;
+}
+
+.strategies input {
+    cursor: pointer;
+}
