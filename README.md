@@ -1,4 +1,4 @@
-# infinity-slider
+# test slider with preloading infinity images
 
 ```bash
 npm install http-server -g
